@@ -16,7 +16,7 @@ class WeatherComponent extends Component{
 
     componentDidMount(){
 
-        const MyKey = "68b5e4ba84c78df5aa14205c852d7f94"
+        const MyKey = process.env.REACT_APP_WEATHER_API_KEY;
 
         let city = this.props.city
 
